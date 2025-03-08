@@ -1,0 +1,8 @@
+name: hello-world-Mounish
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print your name
+        run: echo "Hello World - Mounish"
